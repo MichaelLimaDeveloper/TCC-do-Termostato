@@ -161,13 +161,13 @@ void setup()
   Heltec.display->setFont(ArialMT_Plain_24);
   Heltec.display->drawString(0, 0, "IFresources");
   Heltec.display->setFont(ArialMT_Plain_16);
-  Heltec.display->drawString(0, 25, "©Thomas o Trem");
+  Heltec.display->drawString(0, 25, "@ifrjniteroi");
   Heltec.display->setFont(ArialMT_Plain_10);
-  Heltec.display->drawString(0, 45, "By Gaab and Michael :D");
+  Heltec.display->drawString(0, 45, "Conectando ao Wi-Fi...");
   Heltec.display->display();
   delay(1000);
 
-  //inicializa o DHT no pino 17
+  //inicializa o DHT no pino 25
   dht.setup(25, DHTesp::DHT22); 
 
   //Atribuindo as variaveis as funções
